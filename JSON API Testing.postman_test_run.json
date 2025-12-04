@@ -1,0 +1,110 @@
+{
+	"id": "22417b8d-12f8-46b3-b747-a4afec114ec0",
+	"name": "JSON API Testing",
+	"timestamp": "2025-12-04T15:09:42.063Z",
+	"collection_id": "35406353-2fdf9fa2-6307-4c32-968b-9397c2eaffbd",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-12-04T15:09:40.713Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "604c08c8-bc0d-4170-bb4c-e7f6c431e5e1",
+			"name": "Posts Positive",
+			"url": "https://jsonplaceholder.typicode.com/posts/100/comments",
+			"time": 187,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				187
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "2ed5c34d-486e-40f5-b1a3-b34e78c4415a",
+			"name": "Comments Positive",
+			"url": "https://jsonplaceholder.typicode.com/comments",
+			"time": 191,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				191
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "0842e3b3-5350-430e-a375-b14b90a0f1d2",
+			"name": "Comments Negative",
+			"url": "https://jsonplaceholder.typicode.com/comments/1000",
+			"time": 186,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				186
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "9793017a-cab6-4880-ab8c-19932f89e6e3",
+			"name": "Posts Negative",
+			"url": "https://jsonplaceholder.typicode.com/posts/200000",
+			"time": 184,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				184
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 748,
+	"collection": {
+		"requests": [
+			{
+				"id": "604c08c8-bc0d-4170-bb4c-e7f6c431e5e1",
+				"method": "GET"
+			},
+			{
+				"id": "2ed5c34d-486e-40f5-b1a3-b34e78c4415a",
+				"method": "GET"
+			},
+			{
+				"id": "0842e3b3-5350-430e-a375-b14b90a0f1d2",
+				"method": "GET"
+			},
+			{
+				"id": "9793017a-cab6-4880-ab8c-19932f89e6e3",
+				"method": "GET"
+			}
+		]
+	}
+}
