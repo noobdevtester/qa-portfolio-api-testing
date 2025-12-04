@@ -1,20 +1,19 @@
-# QA Portfolio – API Testing with Reqres
+# QA Portfolio – API Testing with JSONPlaceholder
 
 ## Project Overview
-This project demonstrates manual API testing of the Reqres public REST API.
-The goal is to validate common API endpoints for user management by verifying
-responses, status codes, and error handling.
+This project demonstrates manual API testing of the JSONPlaceholder public REST API.
+The goal is to validate common API endpoints by verifying responses, status codes, and error handling.
 
 ## Application Under Test
-Reqres – a free, hosted REST API for testing and prototyping.
+JSONPlaceholder – a free, hosted REST API for testing and prototyping.
 
 ## Scope of Testing
-- GET list of users
-- GET single user
-- POST create user
-- PUT update user
-- DELETE user
-- Error handling and invalid requests
+⦁	Retrieve lists and single items for posts, comments, albums, photos, todos, and users
+⦁	Test creation of new posts using POST /posts
+⦁	Update existing posts with PUT and PATCH /posts/{id}
+⦁	Delete posts using DELETE /posts/{id}
+⦁	Validate filtering of comments by post ID (e.g., /comments?postId=1)
+⦁	Check response status codes and error handling for invalid requests
 
 ## Testing Types Performed
 - Functional API testing
@@ -29,4 +28,4 @@ Reqres – a free, hosted REST API for testing and prototyping.
 ## How to Use This Repository
 - Review `api-test-cases.md` for detailed API test cases.
 - Review `api-test-report.md` for test execution summaries and findings.
-- Import `postman-collection.json` into Postman to run the tests interactively.
+- Import `JSON API Testing.postman_collection` into Postman to run the tests interactively.
